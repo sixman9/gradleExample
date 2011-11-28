@@ -1,0 +1,42 @@
+Request URL:http://fmx01dhs.ucc.usyd.edu.au/Sugirs/recordlist.php
+Request Method:POST
+Status Code:200 OK
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Charset:ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:en-US,en;q=0.8
+Cache-Control:max-age=0
+Connection:keep-alive
+Content-Length:95
+Content-Type:application/x-www-form-urlencoded
+Cookie:DEVSugirs_1260334403549=bjd6qqa9qko9h4e74hskpg9kq0
+Host:fmx01dhs.ucc.usyd.edu.au
+Origin:http://fmx01dhs.ucc.usyd.edu.au
+Referer:http://fmx01dhs.ucc.usyd.edu.au/Sugirs/index.php
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.120 Safari/535.2
+Form Dataview URL encoded
+-lay:$layoutName
+-action:find
+0:cn
+1:
+2:lte
+3:
+4:lte
+5:10
+-max:10
+-lop:and
+-find:Find Records
+Response Headersview source
+Cache-Control:no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection:Keep-Alive
+Content-Type:text/html; charset=utf-8
+Date:Sun, 27 Nov 2011 23:52:14 GMT
+Expires:Thu, 19 Nov 1981 08:52:00 GMT
+Keep-Alive:timeout=15, max=499
+MS-Author-Via:DAV
+P3P:CP="CAO PSA OUR"
+Pragma:no-cache
+Server:Apache/2.2.8 (Unix) mod_ssl/2.2.8 OpenSSL/0.9.7l mod_jk/1.2.23 PHP/5.2.4
+Transfer-Encoding:chunked
+X-Powered-By:PHP/5.2.4

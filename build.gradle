@@ -20,8 +20,9 @@ buildscript {
 
 //Actual project repositories
 repositories {
-    mavenCentral()
-    mavenRepo url: "http://repository.jboss.org/maven2/"
+	mavenLocal()
+	mavenCentral()
+	//mavenRepo url: "http://repository.jboss.org/maven2/"
 }
 
 //RTFM ;-), I dunno..
@@ -33,7 +34,8 @@ configurations {
 
 //Actual project dependencies
 dependencies {
-        //compile "group:artefact:version", "etc."
+	compile "net.sourceforge.htmlunit:htmlunit:2.9"
+
         //runtime "group:artefact:version", "etc."
         //provided "group:artefact:version", "etc."
 }
