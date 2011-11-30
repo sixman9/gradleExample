@@ -22,6 +22,7 @@ buildscript {
 repositories {
     mavenCentral()
     mavenRepo url: "http://repository.jboss.org/maven2/"
+	mavenRepo url: "http://groovy-option-parser.googlecode.com/svn/repo"
 }
 
 //RTFM ;-), I dunno..
@@ -33,6 +34,8 @@ configurations {
 
 //Actual project dependencies
 dependencies {
+	compile "org.computoring:gop:1.0-rc-1-SNAPSHOT"
+
         //compile "group:artefact:version", "etc."
         //runtime "group:artefact:version", "etc."
         //provided "group:artefact:version", "etc."
