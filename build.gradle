@@ -5,6 +5,9 @@ apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
 
+//[project] Templates plugin
+apply from: 'http://launchpad.net/gradle-templates/trunk/latest/+download/apply.groovy'
+
 //Libraries to aid this build script itself
 buildscript {
     repositories {
