@@ -1,6 +1,0 @@
-//Get the 'Templates' plugin from http://launchpad.net/gradle-templates/trunk/1.1/+download/templates.jar
-//See also http://tellurianring.com/wiki/gradle/templates
-
-//Known to work with gradle-1.0-milestone-3
-
-apply plugin: "templates"
